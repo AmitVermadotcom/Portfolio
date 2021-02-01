@@ -1,0 +1,9 @@
+
+/* if the viewport is equal to 340px or less than */
+@media only screen and (max-width:340px){
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand{
+        padding: 4%;
+        margin: 0%;
+    }
+}
