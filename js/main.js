@@ -45,5 +45,3 @@ $(Document).ready(function(){
 
     navbarFixed();
 });
-
-// document.getElementById("btn").addEventListener("click", showCV);
