@@ -193,10 +193,17 @@ button:hover
 .site-main .project-area .container .grid .our-project .img img{
     width: 22%;
 }
+.site-main .project-area .container .grid .our-project .img1 img{
+    width: 50%;
+}
 .site-main .project-area .container .grid .our-project .img a:hover{
     filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
+#open{
+    text-decoration: none;
+    color: black;
+}
 
 /* =============================================End project area ==================================================== */
 /* Footer area */
