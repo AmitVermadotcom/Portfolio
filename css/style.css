@@ -197,6 +197,11 @@ button:hover
     width: 50%;
     border-radius: 5rem;
 }
+.img2 img{
+    margin-bottom: 2rem;
+    width: 30%;
+    border-radius: 2.5rem;
+}
 .site-main .project-area .container .grid .our-project .img1 a:hover{
     filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
