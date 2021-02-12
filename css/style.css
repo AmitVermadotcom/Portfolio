@@ -22,7 +22,7 @@ html,body{
     width: 100%;
     top: -1;
     left: 0; right: 0;
-    background: #ffffff;
+    background:white;
 }
 .header-area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 0;
@@ -176,7 +176,6 @@ color: black;
     padding-left: 2rem;
 }
 
-
 .site-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px "Roboto",cursive;
 }
@@ -191,9 +190,12 @@ button:hover
 }
 
 .site-main .project-area .container .grid .our-project .img img{
+
     width: 22%;
+    border-radius: 30px;
 }
 .site-main .project-area .container .grid .our-project .img1 img{
+    margin-bottom: 2rem;
     width: 50%;
     border-radius: 5rem;
 }
@@ -202,10 +204,15 @@ button:hover
     width: 30%;
     border-radius: 2.5rem;
 }
-.site-main .project-area .container .grid .our-project .img1 a:hover{
-    filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+.img3 img{
+    margin-bottom: 2rem;
+    width: 20%;
+    border-radius: 2.5rem;
 }
 .site-main .project-area .container .grid .our-project .img a:hover{
+    filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+.site-main .project-area .container .grid .our-project .img1 a:hover{
     filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
