@@ -1,4 +1,3 @@
-/* fomts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
@@ -11,7 +10,6 @@ html,body{
     height: 100%;
 
 }
-/* navbar */
 
 .mr-auto{
     margin: auto;
@@ -34,9 +32,7 @@ html,body{
 
 .header-area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px "Roboto",cursive;
-    /* font-family: "Roboto",cursive; */
     text-transform: uppercase;
-    /* font-weight: 500; */
     padding: 1.7rem;
     color: #141313;
 }
@@ -55,23 +51,18 @@ html,body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-
-
-/* banner area */
-/* .site-main .site-banner {
-    background: url(../IMG/wallpapersden.com_avengers-endgame-4k-background_4000x2250.jpg) no-repeat;
-    background-position: 100% 100%;
-} */
-
+.site-button div {
+    justify-content: space-between;
+}
 .container-fluid a img{
     height: 20%;
     width: 10%;
 }
 
 .img-fluid{
-    height: 83%;
-    width: 54%;
-    border-radius: 13rem;
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
 }
 .site-main .site-banner .site-title{
     padding-top: 14%;
@@ -116,15 +107,16 @@ background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
 background-clip: padding-box;
 color: whitesmoke;
 }
-
 .button.primary-button:hover{
 background: whitesmoke;
 background-clip: padding-box;
 color: black;
 }
+
 .button.secondary-button a{
     text-decoration: none;
 }
+
 .button.secondary-button a:hover{
     color: white;
 }
@@ -230,12 +222,13 @@ button:hover
 }
 
 /* =============================================End project area ==================================================== */
-/*============================================= Footer area ========================================================*/
+/* Footer area */
 
 .footer-area{
     margin: 0 2rem;
     padding: 2rem 0;
 }
+
 footer .social h5{
     font:normal 700 23px/30px "Roboto",cursive;
 }
