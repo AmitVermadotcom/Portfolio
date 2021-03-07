@@ -235,7 +235,8 @@ filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 /* =============================================End project area ==================================================== */
-/* Footer area */
+
+/* ===============================================Footer area================================================================= */
 
 .footer-area{
     margin: 0 2rem;
@@ -243,7 +244,20 @@ filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 footer .social h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font:normal 700 23px/30px "Roboto",cursive;
+}
+footer .social .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .site-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer .social a i{
